@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700;900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  color: #191919;
+}
+
+.container {
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 40px 0 40px;
+}
+
+.header {
+  background-color: #eeeeee;
+  padding: 20px 0 20px;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 36px;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.nav-links {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+}
+
+.nav-links > a {
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.nav-links > a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+  /* background-image: url('./img/bg.jpg'); */
+}
+
+.hero-title {
+  text-align: center;
+  font-size: 80px;
+  font-weight: 900;
+  color: #f1f1f1;
+  line-height: 95px;
+}
+
+.btn {
+  padding: 12px 35px;
+  border: solid 3px #f1f1f1;
+  border-radius: 90000px;
+  text-decoration: none;
+  color: #f1f1f1;
+  font-size: 25px;
+  transition: 300ms ease;
+}
+
+.btn:hover {
+  background-color: #f1f1f1;
+  color: orange;
+  transform: scale(1.1);
+}
+
+.btn-container {
+  display: flex;
+  justify-content: center;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.main-container {
+  margin: 100px 0 100px;
+  display: flex;
+  align-items: center;
+  gap: 50px;
+}
+
+.main-content > h2 {
+  margin-bottom: 10px;
+  font-size: 30px;
+}
+
+.main-container > img {
+  box-shadow: 7px 7px 5px rgba(63, 63, 63, 0.142);
+}
+
+.footer {
+  background-color: #191919;
+  padding: 30px 0 30px;
+}
+
+.footer-title {
+  text-align: center;
+  color: #eeeeee;
+}
+
+.contact-main {
+  background-color: orange;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.cards-container {
+  display: flex;
+  gap: 30px;
+  padding: 80px;
+}
+
+.card {
+  background-color: #eeeeee;
+  padding: 30px;
+  border-radius: 30px;
+}
+
+.card-img {
+  background-color: orange;
+  height: 180px;
+  margin-bottom: 30px;
+  border-radius: 15px;
+}
+
+.card-img > img {
+  max-width: 100%;
+  width: 30vw;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 10px;
+}

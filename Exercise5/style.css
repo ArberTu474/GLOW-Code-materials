@@ -1,0 +1,23 @@
+p {
+  color: yellow;
+  font-weight: bold;
+}
+
+.green-bg {
+  background-color: green;
+}
+.purple-bg {
+  background-color: purple;
+}
+
+#small {
+  font-size: 20px;
+}
+
+#medium {
+  font-size: 40px;
+}
+
+#large {
+  font-size: 60px;
+}
